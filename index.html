@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioWire Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link To Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link to Google Material Icons library -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <img class="logo" src="assets/images/BioWireLogo.png" alt="BioWireLogo">
+        <!-- Menu Icon -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Menu List -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#working">Working</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#edge">Edge</a></li>
+            <li><a href="#Partners">Partners</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="login-active">Login</button>
+    </header>
+    <!-- Login/Register -->
+    <div class="wrapper">
+        <span class="icon-close"><i class='bx bx-minus'></i></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember Login</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user-circle' ></i></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1> EMPOWERING <span class="green">GREENER</span><br> TOMORROWS THROUGH <br><span class="green">SENSOR</span> INNOVATION </h1>
+            <p>Optimize irrigation, Disease and pest control with <br>BioWire's eco-friendly sensors using <span class="green">Real-time farm data</span><br> for efficient agriculture.</p>
+            <button class="ProductInfo">Product Info<i id="b"class='bx bx-right-arrow-alt bx-sm bx-fade-right-hover'></i></button>
+        </div>
+        <div class="home-image">
+            <img class="app"src="assets/images/app.png" alt="mobile app">
+        </div>
+    </section>
+    <!-- Working -->
+     <section class="working" id="working">
+        <div class="working-heading">
+            <h1>biowire working</h1>
+        </div>
+        <div class="working-content">
+            <div class="place">
+                <img src="assets/images/plant.png" alt="plant sensor">
+                <h2>Place Paper<br> Sensors on<br> Soil or Plants!</h2>
+            </div>
+            <div class="folder">
+                <img src="assets/images/folder.png" alt="folder">
+                <h2>Harness of Data<br> with Signal<br> Processing!</h2>
+            </div>
+            <div class="mobile">
+                <img src="assets/images/mobile.png" alt="mobile">
+                <h2>Real time<br> monitoring on<br> app!</h2>
+            </div>
+        </div>
+     </section>
+    <!-- videos -->
+     <section class="video" id="videos">
+        <div class="container">
+            <div class="video-card">
+                <button class="play-btn" aria-label="play video">
+                    <span class="material-symbols-rounded" aria-hidden="true">play_arrow</span>
+                </button>
+            </div>
+            <div class="video-text">
+                <h1>FARMER’S OPINION<br> ON OUR PRODUCT</h1>
+                <h3><span class="green">Farmers all across India!</span></h3>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="video-text2">
+                <h1>OPTIMIZE YOUR<br> PRODUCTION WITH<br> BIOWIRE</h1>
+                <h3><span class="green">Easy to use and renew!</span></h3>
+            </div>
+            <div class="video-card2">
+                <button class="play-btn" aria-label="play video">
+                    <span class="material-symbols-rounded" aria-hidden="true">play_arrow</span>
+                </button>
+            </div>
+        </div>
+     </section>
+    <!-- Edge -->
+    <section class="advantages" id="edge">
+        <div class="advantage-maintext">
+            <h1>Why opt Biowire sensors?</h1>
+            <h3>Sustainability you can trust and performance <br>you'll love</h3>
+        </div>
+        <div class="advantages2">
+            <div class="advantage-item">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">savings</span>
+                </div>
+                <div class="advantage-text"><b>Affordability:</b><br> Our sensors are cheap and affordable</div>
+            </div>
+            <div class="advantage-item">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">workspace_premium</span>
+                </div>
+                <div class="advantage-text2"><b>1st to Market in the Paper-Sensor category</b></div>
+            </div>
+            <div class="advantage-item">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">recycling</span>
+                </div>
+                <div class="advantage-text"><b>Recyclability:</b><br>Used up Paper Sensors can be collected and recycled</div>
+            </div>
+            <div class="advantage-item">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">thumb_up</span>
+                </div>
+                <div class="advantage-text2"><b>Ease of use:</b><br> Simple Layout  for ordinary farmers to understand</div>
+            </div>
+            <div class="advantage-item">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">fast_forward</span>
+                </div>
+                <div class="advantage-text"><b>Fast mass production</b></div>
+            </div>
+        </div>
+    </section>
+    <!-- Partners  -->
+    <section class="Partners" id="Partners">
+        <div class="partners-text">
+            <h1 class="partner-heading">Partners!</h1>
+        </div>
+        <div class="partner-images">
+            <div class="pieds">
+                <img src="assets/images/pieds.png" alt="pieds-logo">
+            </div>
+            <div class="bits">
+                <img src="assets/images/bits.png" alt="bits-logo" >
+            </div>
+            <div class="TU">
+                <img src="assets/images/TU.png" alt="TU-logo">
+            </div>
+        </div>
+     </section>
+    <!-- Footer Section -->
+    <section class="footer" id="contact">
+        <div class="footer-box">
+            <h2>BioWire</h2>    
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur!</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div> 
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Branches</a></li>
+            <li><a href="#">Login</a></li>
+        </div>
+        <div class="footer-box">
+            <div class="Download">
+                <h3>Download App</h3>
+                <li><a href="#"><i class='bx bxl-play-store ' ></i>Google Play</a></li>
+                <li><a href="#"><i class='bx bxl-apple '></i>App Store</a></li>
+            </div>
+        </div>
+    </section>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
