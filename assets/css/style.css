@@ -78,7 +78,7 @@ header{
 .navbar{
   display: flex;
   column-gap: 0.5rem;
-  align-items: center;
+
   padding:20px 40px 5px 20px;
 }
 .navbar a{
@@ -122,7 +122,7 @@ section{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(17rem,auto));
   align-items: center;
-  gap: 1.5rem;
+
 }
 .home-text h1{
   font-size: 3rem;
@@ -177,16 +177,18 @@ section{
   padding: 10px 60px 20px 20px;
   transition: .5s;
 }
+
 .working-content{
   display: flex;
-  flex-direction: row; 
-  align-items: center; 
-  justify-content: center; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   column-gap: 0.5rem;
   padding: 50px 20px 5px 20px;
-  text-align: center; 
+  text-align: center;
   column-gap: 8rem;
 }
+
 .working-heading{
   font-size: 2.5rem;
   color: #1a2428;
@@ -196,37 +198,14 @@ section{
   padding-top: 1.5em;
   font-weight: 500;
 }
-.place img{
-  height: 220px;
-  width:auto;
+
+.place img, .folder img, .mobile img{
+  height: auto;
+  width: 100%;
+  max-width: 220px;
 }
-.folder img{
-  height: 200px;
-  width:auto;
-}
-.mobile img{
-  height: 210px;
-  width:auto;
-}
-.place h2{
-  font-size: 2rem;
-  color: #1a2428;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 0.5em;
-  font-weight: 600;
-  line-height: 40px;
-}
-.folder h2{
-  font-size: 2rem;
-  color: #1a2428;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 0.5em;
-  font-weight: 600;
-  line-height: 40px;
-}
-.mobile h2{
+
+.place h2, .folder h2, .mobile h2{
   font-size: 2rem;
   color: #1a2428;
   text-transform: uppercase;
@@ -401,10 +380,7 @@ section{
   justify-content: center;
   padding-top: -20px; 
   padding-bottom: -20px; 
-
 }
-
-
 .footer{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(240px,auto));
@@ -631,6 +607,9 @@ section{
   background: #0f560e;
   border-radius: 5rem;
 }
+.video-text3{
+  display: none;
+}
 /* <600px,601px,768px,992px,1200px */
 /* making responsive */
 @media (max-width: 1220px){
@@ -751,6 +730,9 @@ section{
     text-align: center;
     font-size: 1.5em;
     font-weight: 400;
+  }
+  .video-card{
+    margin-top: 0;
   }
   .video-text h1, .video-text3 h1{
     font-size: 1.8rem;
