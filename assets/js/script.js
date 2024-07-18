@@ -15,3 +15,13 @@ btnPopup.addEventListener('click',()=>{
 iconClose.addEventListener('click',()=>{
     wrapper.classList.remove('active-popup')
 })
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+menu.onclick = () =>{
+    menu.classList.toggle('material2'); 
+    navbar.classList.toggle('active');
+}
+window.onscroll = () =>{
+    menu.classList.remove('material2'); 
+    navbar.classList.remove('active');
+}
