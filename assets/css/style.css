@@ -732,8 +732,8 @@ section{
     font-weight: 400;
   }
   .video-card{
-    display: none;
     margin-top: 0;
+    display: none;
   }
   .video-text h1, .video-text3 h1{
     font-size: 1.8rem;
@@ -745,6 +745,12 @@ section{
   }
   .video-text h3, .video-text3 h3{
     margin-left: 0;
+  }
+  .video-text h1{
+    display: none;
+  }
+  .video-text h3{
+    display:none
   }
 }
 
